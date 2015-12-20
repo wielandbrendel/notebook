@@ -1,8 +1,9 @@
-# Installs Jupyter Notebook and IPython kernel from the current branch
+#
+#Installs Jupyter Notebook and IPython kernel from the current branch
 # Another Docker container should inherit with `FROM jupyter/notebook`
 # to run actual services.
 
-FROM ubuntu:14.04
+FROM nvidia/cuda:7.5-cudnn3-runtime
 
 MAINTAINER Project Jupyter <jupyter@googlegroups.com>
 
