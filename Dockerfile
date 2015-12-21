@@ -3,7 +3,7 @@
 # Another Docker container should inherit with `FROM jupyter/notebook`
 # to run actual services.
 
-FROM nvidia/cuda:7.5-cudnn3-runtime
+FROM nvidia/cuda:7.0-cudnn3-runtime
 
 MAINTAINER Project Jupyter <jupyter@googlegroups.com>
 
